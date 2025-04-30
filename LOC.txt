@@ -1,0 +1,2 @@
+import numpy as np
+noise = np.sign(np.random.random() - 0.5) * np.log(1 - 2 * abs(np.random.random() - 0.5))
